@@ -1,0 +1,91 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container-fluid {
+    display: flex;
+    float: center;
+    justify-content: space-between;
+    background-color: rgb(255, 227, 179);
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px 0px 0px 0px;
+}
+
+.logo{
+    display: none;
+}
+
+
+.navlista{
+    margin-left: 10%;
+    
+}
+
+
+.carousel-inner {
+    margin-bottom: 20px;
+
+}
+
+.carruselheader{
+    color: black;
+}
+
+.nosotros{
+    border: 1px solid;
+    border-radius: 5px;
+    
+}
+
+
+.nos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 100px;
+}
+
+.textonosotros{
+    text-align: start;
+    font-size: large;
+}
+
+@media (max-width: 500px) {
+    .logo{
+        display: none;
+    }
+    .cartas{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navegadorfooter{
+        margin-left: 0;
+    }
+    #whatsapp{
+        top: 87%;
+        left: 90%;
+    }
+    .nombrep{
+        display: flex;
+        margin-top: 10px;
+        font-family: 'Itim', cursive;
+        font-size: larger;
+                
+    }
+      
+    }
+    .carousel-inner{
+        margin-top: 40px;
+    }
+  
+
+
+@media (max-width: 800px){
+    .fototextocard{
+        flex-direction: column;
+        align-items: center;
+    }
+}  
+

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HidroSuárez Espacio TerapeuticO</title>
+ 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+	<link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+	<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<div class="logo">
+				<a href="index.html">
+					<img width="120px" height="120px" src="img/logo1.jpg" alt="Logo"></a>
+				 
+		  </div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			
+				  
+			   
+			<div class="collapse navbar-collapse navlista" id="navbarTogglerDemo02">
+				<div class="container-md">
+					<ul class="navbar-nav gap-5">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Inicio</a>
+						</li>
+						
+						<li class="nav-item">
+							<a class="nav-link" href="#nosotros">Nosotros</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#Servicios">Servicios</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contacto">Contacto</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+	</nav>
+
+</header>
+	
+	<main>
+
+		<div id="carouselExampleInterval" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="img/terapia.jpg" class="d-block w-100" alt="terapia" />
+                    <div class="carousel-caption d-none d-md-block carruselheader"></div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/pileta1.jpg" class="d-block w-100" alt="pileta" />
+                    <div class="carousel-caption d-none d-md-block carruselheader"></div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <img src="img/vereda1.jpg" class="d-block w-100" alt="direccion" />
+                    <div class="carousel-caption d-none d-md-block carruselheader"></div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+
+
+
+		<section class="container nos" id="nosotros">
+
+
+            <div class="card-body sobrenosotros card">
+                <p class="card-text">
+                <p class="nosotros">Nosotros</p>
+
+                <p class="textonosotros">Hidrosuarez Espacio Terapeutico es una pileta climatizada destinada a abordajes de rehabilitación y prevención.
+                </p>
+            </div>
+            </div>
+
+        </section>
+
+		
+
+
+		<section class="container servicios" id="servicios">
+            <p class="servicios">Servicios</p>
+
+            <section class="container cartas">
+
+                <div class="card cartash" style="width: 18rem;">
+                    <img src="img/cisne.jpg" class="card-img-top" alt="relax>
+					<div class="card-body cuerpotarjeta">
+                        <h4>Sesiones de Relax</h4>
+                        <p class="card-text">
+                        <p>Descripción...
+                        </p>
+                    </div>
+                </div>
+                
+				<div class="card cartash" style="width: 18rem;">
+                    <img src="img/pileta1.jpg" class="card-img-top" alt="rehabilitación">
+                    <div class="card-body cuerpotarjeta">
+                        <h4>Terapia de Rehabilitación</h4>
+                        <p class="card-text">
+                        <p>Descripción...
+                        </p>
+                    </div>
+                </div>
+			</section>
+
+
+				
+
+
+
+
+
+
+				<section class="container form" id="contacto">
+					<div>
+						<p class="req">Contacto</p>
+						<form action="">
+							<div class="mb-3">
+								<label for="nombrep" class="form-label input"></label>
+								<input type="nombrep" class="form-control input" id="nombrep" placeholder="Nombre" required>
+							</div>
+							<div class="mb-3">
+								<label for="Telefono" class="form-label input"></label>
+								<input type="telefono" class="form-control input" id="Telefono" placeholder="Telefono" required>
+							</div>
+							<div class="mb-3">
+								<label for="Email" class="form-label input"></label>
+								<input type="email" class="form-control input" id="Email" placeholder="Email" required>
+							</div>
+							<div class="input-formulario">
+								<label for="opciones">Tipo de servicios</label>
+							 </div>
+							 <div class="input-opciones">
+								<div><input type="checkbox" name="servicio" id="servicio"><label for="">Sesión de Relax</label></div>
+								<div><input type="checkbox" name="servicio" id="servicio"><label for="">Rehabilitación</label></div>
+								<div><input type="checkbox" name="servicio" id="servicio"><label for="">Terapias preventivas</label></div>
+								<div><input type="checkbox" name="servicio" id="servicio"><label for="">Terapia de mantenimiento</label></div>
+								<div><input type="checkbox" name="servicio" id="servicio"><label for="">Recuperación de habilidades físicas</label></div>
+							 </div>      
+					   
+							 <div class="mb-3">
+							   <label for="Texto" class="form-label"></label>
+							   <textarea class="form-control" id="areatexto" rows="3"
+								   placeholder="Dejanos tu consulta y nos comunicaremos a la brevedad. Gracias!"></textarea>
+						   </div>
+						   <button type="submit" class="btn btn-primary">Enviar</button>
+					   
+						  </form>
+						 
+					   
+						  </div>
+					   
+							  </section>
+
+							  <section class="contacto" id="contacto">
+   
+								<div class="formulario-contacto caja">
+								   <div class="informacion-contacto">
+							 
+									  <div class="contactanos">
+									  <h3>Ubicación</h3>
+									  <a href="https://maps.app.goo.gl/pk6jQaCuDFGffzDA9">Mitre 1875 Coronel Suárez<i class="fas fa-sharp fa-solid fa-location-dot"></i></a>
+									  <p><i class="fa-solid fa-envelope"></i>1234@gmail.com</p>
+									  <p><i class="fa-solid fa-phone"></i>+54 91131995527</p>
+									  </div>
+							 
+									  <div class="redes-sociales">
+									  <a href="https://es-la.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+									  <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+									  <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>             
+									  </div>
+								   </div>
+							 
+						</section>
+									
+				
+		
+			</main>
+		
+			<footer class="footer">
+				<div class="logo">
+				   
+				</div>
+			  <p>Todos los derechos reservados 2023&copy; Desarrollado por Graff Natalia </p>
+			 
+			  </footer>
+					 
+				   <script src="js/menu.js"></script>
+					 
+				   </main>   
+					 
+					 </body>
+					 
+					 </html>
+
+
+
+
+	<!--<section>
+			<article class="nosotros">
+			<h1 class="textCenter">Quienes somos</h1>
+			<p>Hidrosuarez Espacio Terapeutico es una pileta climatizada destinada a abordajes de rehabilitación y prevención.
+ <span class="textBold"> HidroSuárez</span> Espacio TerapeuticO</p>
+			</article>
+			<article class="bgLight nosotros__articulo">
+				<h2 class="textCenter">Nuestra Historia</h2>
+				<p>Fabricantes directos. <span class="textItalic"> Mar del Plata</span> Las Almohadas Max Dream, de espuma termosensile viscoelastica tienen excelentes propiedades de "adaptación y termosensibilidad, ya que se adaptan perfectamente a la forma de la cabeza, proporcionando un mayor soporte y favoreciendo un completo descanso cervical".</p>
+
+				<p>Debido a sus propiedades viscosas y elásticas, las Almohadas Max Dream son indeformables y altamente adaptables. Son ergonómicas y terapéuticas, disminuyen los puntos de presión, permitiendo mayor relajación, mejoran la postura al dormir y son Hipoalargénicas.</p>
+
+</p>
+			</article>
+		</section>	
+	
+
+	<footer>
+		<h3 class="textCenter">Redes Sociales</h3>
+		<a href="https://facebook.com">
+			<img src="img/facebook.png" alt="">
+		</a>
+		<a href="https://instagram.com">
+			<img src="img/instagram.jpg"</a>
+		
+		</footer>
+
+</body>
+</html>-->
